@@ -123,3 +123,4 @@ class TestBaseClass(unittest.TestCase):
         """
         json_list = Base.from_json_string([])
         self.assertEqual(json_list, [])
+
